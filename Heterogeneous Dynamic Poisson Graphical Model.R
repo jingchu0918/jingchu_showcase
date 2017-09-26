@@ -1,14 +1,24 @@
 ##########################################################################
+#
 # Heterogeneous Dynamic Poisson Graphical Model
 # Auther: Jing Chu
 # Date: June 2017
+#
 ##########################################################################
+#
 # This code randomly generate a sample for heterogeneous dynamic
 # transcription factor networks and implemented a Hierarchical Dynamic
 # Poisson Graphical Model for nonparametric Bayesian learning of the
 # network. In particular, an efficient parallel Markov chain Monte Carlo
 # algorithm for posterior computation is developed
+#
 ##########################################################################
+#
+# Use "mclapply" function to parallelize the Gibbs sampler
+# for Hierarchical Dynamic Poisson Graphical Models (HDPGM)
+#
+##########################################################################
+
 
 
 ##########################################################################
@@ -402,9 +412,6 @@ for(d in 1:D) {
 
 ##########################################################################
 # Sampling
-#
-# Use "mclapply" function to parallelize the Gibbs sampler
-# for Hierarchical Dynamic Poisson Graphical Models (HDPGM)
 ##########################################################################
 mc = 20 #number of cores to carry out parallel computing
 
