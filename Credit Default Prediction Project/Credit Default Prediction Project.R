@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @jingchu0918
- Sign out
- Watch 0
-  Star 0  Fork 0 jingchu0918/jingchu_showcase
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
-Branch: master Find file Copy pathjingchu_showcase/Credit Default Prediction Project.R
-796722a  a day ago
-@jingchu0918 jingchu0918 Add files via upload
-1 contributor
-RawBlameHistory     
-561 lines (471 sloc)  19.9 KB
 ####================= Chinese University of Hong Kong =========================####
 ####=============== RMSC4002 (16-17 FALL) Group Project =======================####
 #                                                                                 #
@@ -576,15 +558,3 @@ cat('ANN: Error rate for testing data set:,', ann.error.test,
 
 
 
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
